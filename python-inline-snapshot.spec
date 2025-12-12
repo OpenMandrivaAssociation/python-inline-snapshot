@@ -5,7 +5,7 @@
 
 Name:		python-inline-snapshot
 Version:	0.22.0
-Release:	1
+Release:	2
 Summary:	Create and update inline snapshots in your python tests
 URL:		https://pypi.org/project/inline-snapshot/
 License:	MIT
