@@ -20,9 +20,11 @@ BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(wheel)
 %if %{with tests}
 BuildRequires:	python%{pyver}dist(attrs)
+BuildRequires:	python%{pyver}dist(asttokens)
 BuildRequires:	python%{pyver}dist(black)
 BuildRequires:	python%{pyver}dist(click)
 BuildRequires:	python%{pyver}dist(dirty-equals)
+BuildRequires:	python%{pyver}dist(executing)
 BuildRequires:	python%{pyver}dist(hypothesis)
 BuildRequires:	python%{pyver}dist(isort)
 BuildRequires:	python%{pyver}dist(mypy)
@@ -32,6 +34,8 @@ BuildRequires:	python%{pyver}dist(pytest)
 BuildRequires:	python%{pyver}dist(pytest-freezer)
 BuildRequires:	python%{pyver}dist(pytest-mock)
 BuildRequires:	python%{pyver}dist(pytest-xdist)
+BuildRequires:	python%{pyver}dist(rich)
+BuildRequires:	python%{pyver}dist(typing-extensions)
 %endif
 Suggests:	python%{pyver}dist(black) >= 23.3.0
 Suggests:	python%{pyver}dist(dirty-equals) >= 0.9.0
