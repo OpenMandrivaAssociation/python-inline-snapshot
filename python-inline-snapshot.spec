@@ -4,7 +4,7 @@
 %bcond tests 1
 
 Name:		python-inline-snapshot
-Version:	0.32.6
+Version:	0.32.7
 Release:	1
 Summary:	Create and update inline snapshots in your python tests
 License:	MIT
@@ -60,6 +60,5 @@ pytest -k "$skiptests"
 
 %files
 %doc README.md
-%license LICENSE
 %{py_sitedir}/%{oname}
 %{py_sitedir}/%{oname}-%{version}.dist-info
